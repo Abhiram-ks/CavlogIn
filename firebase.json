@@ -1,0 +1,44 @@
+{
+    "firestore": {
+        "rules": "firestore.rules",
+        "indexes": "firestore.indexes.json"
+    },
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "cavlog-officail",
+                    "appId": "1:368277681170:android:5e09900e4197875a7454cb",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "cavlog-officail",
+                    "configurations": {
+                        "android": "1:368277681170:android:5e09900e4197875a7454cb",
+                        "ios": "1:368277681170:ios:2e602777367e939f7454cb",
+                        "macos": "1:368277681170:ios:2e602777367e939f7454cb",
+                        "web": "1:368277681170:web:0891e489cf914a277454cb",
+                        "windows": "1:368277681170:web:3756e618b11da7107454cb"
+                    }
+                }
+            }
+        }
+    },
+    "hosting": {
+        "site": "cavlog-in",
+        "public": "build/web",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}

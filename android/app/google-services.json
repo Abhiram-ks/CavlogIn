@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "368277681170",
+    "project_id": "cavlog-officail",
+    "storage_bucket": "cavlog-officail.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368277681170:android:5e09900e4197875a7454cb",
+        "android_client_info": {
+          "package_name": "com.cavlog.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9eBMdEF07VK0YpVuIzEj3tP9m4YyDp8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368277681170:android:2715a34d516b6f3a7454cb",
+        "android_client_info": {
+          "package_name": "com.cavlog.barber"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9eBMdEF07VK0YpVuIzEj3tP9m4YyDp8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368277681170:android:522fb5b19dbff8b87454cb",
+        "android_client_info": {
+          "package_name": "com.cavlog.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9eBMdEF07VK0YpVuIzEj3tP9m4YyDp8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
